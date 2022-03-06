@@ -13,10 +13,16 @@ https://rufus.ie/
 ### 用途
 用于快速搜索电脑文件。
 
-
-
 ## geek uninstall
 微软官方出品的卸载工具，对于难以卸载的文件这个非常的好用。
+
+## kazam
+linux 录屏软件,ubuntu直接安装即可。
+
+## Terminalizer 终端记录软件
+https://linux.cn/article-10237-1.html
+https://www.npmjs.com/package/terminalizer
+
 
 昔日龌龊不足夸，今朝放荡思无涯。
 
