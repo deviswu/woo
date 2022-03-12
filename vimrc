@@ -1,3 +1,6 @@
+# vim 好用的插件
+nerdtree、easymotion
+# vim  配置
 "搜索高亮
 set incsearch
 set hlsearch 
@@ -30,7 +33,6 @@ Plugin 'leafoftree/vim-vue-plugin'
 Plugin 'mattn/emmet-vim'
 Plugin 'preservim/nerdtree'
 Plugin 'easymotion/vim-easymotion'
-Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 call vundle#end()            " required
 filetype plugin indent on    " required
