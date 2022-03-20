@@ -22,7 +22,8 @@ linux 录屏软件,ubuntu直接安装即可。
 ## 6 Terminalizer 终端记录软件
 https://linux.cn/article-10237-1.html
 https://www.npmjs.com/package/terminalizer
-
+## 7 fim
+这是一个终端查看图片工具。
 
 昔日龌龊不足夸，今朝放荡思无涯。
 
