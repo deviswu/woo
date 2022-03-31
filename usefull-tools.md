@@ -24,6 +24,9 @@ https://linux.cn/article-10237-1.html
 https://www.npmjs.com/package/terminalizer
 ## 7 fim
 这是一个终端查看图片工具。
+## 8 两款ssh工具
+termuis和tabby
+[termuis下载地址](https://www.termius.com/windows)
 
 昔日龌龊不足夸，今朝放荡思无涯。
 
