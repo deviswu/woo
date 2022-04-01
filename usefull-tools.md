@@ -28,6 +28,9 @@ https://www.npmjs.com/package/terminalizer
 termuis和tabby
 [termuis下载地址](https://www.termius.com/windows)
 
+## 9 bspwm
+bspwm是一款窗口管理器，非常的实用。
+
 昔日龌龊不足夸，今朝放荡思无涯。
 
 春风得意马蹄疾，一日看尽长安花。
