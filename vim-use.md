@@ -162,5 +162,7 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 ```
-#### 安装插件
+3 安装插件
 打开'vim',运行'PluginInstall'
+### 合并两个文件
+首先在vim中打开一个文件，然后移动光标到最后一行，输入`:r xx.txt`。
