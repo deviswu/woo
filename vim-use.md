@@ -164,5 +164,5 @@ filetype plugin indent on    " required
 ```
 3 安装插件
 打开'vim',运行'PluginInstall'
-### 合并两个文件
+### 5 合并两个文件
 首先在vim中打开一个文件，然后移动光标到最后一行，输入`:r xx.txt`。
