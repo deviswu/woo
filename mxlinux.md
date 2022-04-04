@@ -1,5 +1,5 @@
 # 一、双系统安装安装
-一个月之前安装并没有安装为双系统，2022年3月6日成功安装双系统，关键问题需要。安装步骤：
+2022年3月6日成功安装双系统,安装步骤：
 - MX linux官网下在系统
 - 下载[rufus](https://rufus.ie) u盘安装工具。需要主要的是**分区类型**选择**MBR**和**目标系统类型**选择**uefi**模式，**文件格式**选择***NTFS**格式。
 - 重要提示，进入电脑bios，关闭安全启动项（Secure Boot）。（我的电脑是通过uefi必须关闭，否则不能启动。）
@@ -39,3 +39,29 @@ sudo apt-get install ntpdate
 sudo ntpdate time.windows.com
 sudo hwclock --localtime --systohc
 ```
+# 六、我是如何工作的
+到底是选ubuntu系统还是mxlinux系统，今天来看，不管选择哪个都无所谓，他们都是一个系统而已，问题在于你产出了多少东西，如何定义产出的东西，或者叫产品。产品就是提供服务，外界看到你的东西能够从中获得相应的利益。
+ubuntu系统非常的稳定，就一个稳定已经打败很多系统了，mxlinux也是很稳定。所谓的稳定就是系统长期支持，软件比较丰富，遇到的问题基本上都能解决。否则遇到问题解决不了用就不占有优势了。两个系统对比一下不难发现mxlinux系统还是弱一些。ubuntu系统还是比较稳定，ubuntu系统在国内源的支持非常的好，mxlinux就没那么好。
+
+# 七、系统安装完之后需要安装的软件
+- nodejs
+- vim
+- git
+ python3
+## 7.1安装nodejs
+[nodejs github安装指南](https://github.com/nodesource/distributions/blob/master/README.md )
+为了后续操作使用npm，把npm换成国内阿里源
+```
+$ npm config set registry https://registry.npm.taobao.org
+$ npm config get registry
+https://registry.npm.taobao.org
+```
+## 7.2安装python3 curl git
+```
+sudo apt install -y python3 python3-pip
+pip install pynvim
+sudo apt-get install -y curl git
+```
+## 7.3安装neovim
+neovim最好要支持python3
+[github主页](https://github.com/neovim/neovim/wiki/Installing-Neovim)
