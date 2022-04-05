@@ -166,3 +166,25 @@ filetype plugin indent on    " required
 打开'vim',运行'PluginInstall'
 ### 5 合并两个文件
 首先在vim中打开一个文件，然后移动光标到最后一行，输入`:r xx.txt`。
+### 6 安装vundle
+[官网地质](https://github.com/VundleVim/Vundle.vim)
+### 7 安装snipmate自动补全
+在vundle中安装一下插件
+```
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets' "massive common snippets
+```
+然后在vim中输入
+```
+:source %
+:PluginInstall
+```
+这个非常重要否则，很容易出现vim加载snipmate失败的情况
+还没有完毕，还会出现一个问题。
+`The legacy SnipMate parser is deprecated. Please see :h SnipMate-deprecate.`
+解决办法就是在vimrc中配置
+```
+let g:snipMate = { 'snippet_version' : 1 }
+``` 
