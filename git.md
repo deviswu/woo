@@ -2,7 +2,7 @@
 git config --global user.email "deviswu@126.com"
 git config --global user.name "deviswu"
 # 2 解决permission denied (publickey)) 问题
-i```
+```
 ssh-keygen -t rsa -b 2048 -C "deviwu@126.com"
 ``` 
 这个提示要输入两次passphrase，最要输入的密码和github密码一致。
