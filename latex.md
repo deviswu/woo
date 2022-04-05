@@ -8,4 +8,4 @@
 \end{document}
 ```
 直接输入页码即可选择性地引用原pdf内容。
-#
+# snipmate写tex文件特别的快非常的好。
