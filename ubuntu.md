@@ -6,6 +6,10 @@ sudo apt-get install openssh-server
 ```
 # 三、texlive、curl、nodejs、git、vim、tmux安装
 vim安装直接支持python3，vim安装参考github上自己的安装文档。
+nodejs官网debian安装教程
+```
+	https://github.com/nodesource/distributions/blob/master/README.md
+```
 # 四、ubuntu启动后进入命令行模式
 禁用图形用户界面
 1. 下面的命令将在启动时禁用GUI，因此在重新启动时，系统将启动到多用户目标：
@@ -25,7 +29,7 @@ sudo systemctl set-default graphical
 ```
 sudo systemctl start gdm3
 ```
-五、ubuntu笔记本设置盒盖不休眠 
+# 五、ubuntu笔记本设置盒盖不休眠 
 ```
 	sudo vim /etc/systemd/logind.conf
 ```
@@ -40,3 +44,7 @@ sudo systemctl start gdm3
 然后重启服务
 [参考网页](://www.jianshu.com/p/3fe469fc60c9)
 
+# 六、静态ip地址配置
+首先需要用ip a
+命令查看一下配置网卡的名称，这是最关键的一步，好几次自己在这个地方都没有配置成功主要是因为这里。
+然后打开`/etc/netplan/xxx-newwork-manager-all.yaml`,对其进行配置。
