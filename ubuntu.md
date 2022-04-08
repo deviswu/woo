@@ -48,3 +48,8 @@ sudo systemctl start gdm3
 首先需要用ip a
 命令查看一下配置网卡的名称，这是最关键的一步，好几次自己在这个地方都没有配置成功主要是因为这里。
 然后打开`/etc/netplan/xxx-newwork-manager-all.yaml`,对其进行配置。
+# 七、python服务器共享文件
+```
+	python -m http.server 8000
+```
+直接在浏览器中访问相应ip地址即可。

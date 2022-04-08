@@ -30,3 +30,16 @@ termuis和tabby
 
 ## 9 bspwm
 bspwm是一款窗口管理器，非常的实用。
+## 10 fy翻译软件和fanyi软件
+在终端输入文字，进行翻译。
+```
+sudo apt-get update
+sudo apt-get install ruby
+sudo gem install fy
+```
+使用方法:直接使用`fy`命令即可，输入中文翻译成英文，输入英文翻译成中文。
+# 翻译软件
+```
+npm install fanyi -g
+```
+使用fy或fanyi 命令进行翻译。

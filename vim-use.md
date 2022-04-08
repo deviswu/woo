@@ -188,3 +188,11 @@ Plugin 'honza/vim-snippets' "massive common snippets
 ```
 let g:snipMate = { 'snippet_version' : 1 }
 ``` 
+### 8 ranger
+```
+	sudo apt-get install ranger
+```
+插件安装
+```
+	plug 'francoiscabrol/ranger.vim'
+```
