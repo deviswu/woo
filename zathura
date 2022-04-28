@@ -1,0 +1,6 @@
+zathura 安装完成之后，可能会出现pdf文件打不开的情况，可能的原因是：
+
+
+Do you have zathura-pdf-mupdf or zathura-pdf-poppler installed?
+
+Zathura is a document viewer that needs a plugin for each document type to be able to display them.
