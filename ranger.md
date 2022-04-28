@@ -38,4 +38,12 @@ set preview_images_method iterm2
 # 如果开启了图片预览，建议配置预览文件最大限制，因为图片大了会导致卡顿（单位byte）我这里配置的是100KB
 set preview_max_size 102400
 ```
+## 配置ranger使用vim编辑器
+1. 打开配置文件~/.config/ranger/rifle.conf,找到MIsc
+修改下面两行
+```
+mime ^text, label editor =nvim -- "$@"
+!mine ^text, label editor, ext xml|json|csv|tex|ty|rb|js|sh|php| = nvim --"$@"
+```
+
 
